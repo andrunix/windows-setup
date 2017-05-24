@@ -59,7 +59,12 @@ I am always playing around with fonts but I've settled on Inconsolata as my
 favorite font for terminal and text editor. You can download it from
 the official Github repo at https://github.com/google/fonts/tree/master/ofl/inconsolata.
 
-*** References: ***
+## Configuration
+
+See my [dotfiles repo](https://github.com/andrunix/dotfiles) for configurations of Emacs and bash.
+
+
+***References:***
 
 * https://www.emacswiki.org/emacs/MovingTheCtrlKey#toc19
 * https://sites.google.com/site/steveyegge2/effective-emacs
