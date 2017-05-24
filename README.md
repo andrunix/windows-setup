@@ -21,6 +21,13 @@ but I find there is no real need for a Caps Lock key.
 For my keyboard of choice, the Vortex Pok3r, you can do the remap by programming
 one of the non-default layers. The default layer is not programmable.
 
+To reprogram the CapsLock on Layer 2:
+
+* FN + R_Ctrl to enter programming mode -> second LED under space bar is now lit
+* CapsLock then: L_Ctrl then: PN to confirm
+* FN + CapsLock then: L_Ctrl then: PN to confirm
+* FN + R_Ctrl to exit programming -> second LED extinguishes
+
 This works great if I am sitting at my desk typing on my Pok3r. However, I often
 have to undock my laptop and work off the laptop keyboard. In this case, I need
 to have the Caps Lock remapped at the Windows level.
@@ -57,7 +64,7 @@ the official Github repo at https://github.com/google/fonts/tree/master/ofl/inco
 * https://www.emacswiki.org/emacs/MovingTheCtrlKey#toc19
 * https://sites.google.com/site/steveyegge2/effective-emacs
 * https://github.com/google/fonts/tree/master/ofl/inconsolata
-
+* https://github.com/davidjenni/pok3r-layouts
 
 
 
