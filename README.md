@@ -2,13 +2,18 @@
 
 This is my basic setup for Windows 7 at work. Unfortunately, I am forced to use Windows
 due to enterprisey standards and licensing agreements. But thanks to open source software,
-I can make it a tolerable experience. Here's how I do it.
+I can make it a tolerable experience. Here's how I do it. 
 
 ## Tools to install
 
 * Git
 * Git Bash https://git-scm.com/downloads
 * Emacs for Windows
+
+## Turn on Single Click
+
+If you are coming from a Mac, going back to double clicking on things is maddening. 
+Turn on single click and it feels more natural.
 
 ## Remapping the Caps Lock to Ctrl
 
