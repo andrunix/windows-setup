@@ -23,7 +23,7 @@ but I find there is no real need for a Caps Lock key.
 
 ### Pok3r Remap of Caps Lock
 
-For my keyboard of choice, the Vortex Pok3r, you can do the remap by programming
+For my keyboard of choice, [the Vortex Pok3r](https://www.amazon.com/Mechanical-Keyboard-Keycaps-Cherry-Mx-Blue/dp/B00OFM51L2/), you can do the remap by programming
 one of the non-default layers. The default layer is not programmable.
 
 To reprogram the CapsLock on Layer 2:
