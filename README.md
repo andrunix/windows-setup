@@ -6,14 +6,20 @@ I can make it a tolerable experience. Here's how I do it.
 
 ## Tools to install
 
-* Git
-* Git Bash https://git-scm.com/downloads
+* Git - https://git-scm.com/downloads
+* Git Bash (comes with the git download)
 * Emacs for Windows
 
 ## Turn on Single Click
 
 If you are coming from a Mac, going back to double clicking on things is maddening. 
 Turn on single click and it feels more natural.
+
+* Open Windows Explorer
+* From the menu, Tools > Folder Options
+* Select "Single Click on item to open"
+
+![Single click](images/singleclick.png)
 
 ## Remapping the Caps Lock to Ctrl
 
