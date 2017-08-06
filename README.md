@@ -8,7 +8,7 @@ I can make it a tolerable experience. Here's how I do it.
 
 * Git - https://git-scm.com/downloads
 * Git Bash (comes with the git download)
-* Emacs for Windows
+* [Emacs](emacs.md) for Windows
 
 ## Turn on Single Click
 
