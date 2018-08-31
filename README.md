@@ -8,9 +8,11 @@ I can make it a tolerable experience. Here's how I do it.
 
 * Git - https://git-scm.com/downloads
 * Git Bash (comes with the git download)
-* [Emacs](emacs.md) for Windows
+* [Emacs](https://www.gnu.org/software/emacs/download.html) for Windows
 
 ## Turn on Single Click
+
+> I've stopped doing this. Now in Double click mode. 
 
 If you are coming from a Mac, going back to double clicking on things is maddening. 
 Turn on single click and it feels more natural.
@@ -70,9 +72,29 @@ I am always playing around with fonts but I've settled on Inconsolata as my
 favorite font for terminal and text editor. You can download it from
 the official Github repo at https://github.com/google/fonts/tree/master/ofl/inconsolata.
 
+## Essential applications
+
+* [cURL](https://curl.haxx.se/download.html)
+* [DBeaver](https://dbeaver.io/)
+* [Dexpot](https://dexpot.de/)
+* [Emacs, obviously ](https://www.gnu.org/software/emacs/download.html)
+* [Fiddler](https://www.telerik.com/fiddler)
+* [GIMP](https://www.gimp.org/downloads/Windows.html)
+* [Git](https://git-scm.com/download/win) with [Git Bash](https://gitforwindows.org/)
+* [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+* [KDiff3](http://kdiff3.sourceforge.net/)
+* [Node and npm](https://nodejs.org/en/)
+* [Pandoc](https://pandoc.org/installing.html)
+* [Postman](https://www.getpostman.com/)
+* [Python](https://www.python.org/downloads/windows/)
+* [SoapUI](https://www.soapui.org/) - maybe
+* [WinSCP](https://winscp.net/eng/download.php)
+
+
 ## Configuration
 
-See my [dotfiles repo](https://github.com/andrunix/dotfiles) for configurations of Emacs and bash.
+See my [dotfiles repo](https://github.com/andrunix/dotfiles) for configuration of bash.
+See my [emacs.d repo](https://github.com/andrunix/emacs.d) for configuration of Emacs.
 
 
 ***References:***
