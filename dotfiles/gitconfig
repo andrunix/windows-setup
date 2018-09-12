@@ -1,0 +1,16 @@
+[user]
+	name = andrunix
+	email = andrunix@gmail.com
+[core]
+	editor = vim
+	excludesfile = C:/home/a16106p/.gitignore
+[http]
+	proxy = http://webproxy.bcbst.com:80
+	sslVerify = false
+[https]
+	proxy = https://webproxy.bcbst.com:443
+[url "https://"]
+	insteadOf = git://
+[url "https://github.com/"]
+	insteadOf = git@github.com:
+

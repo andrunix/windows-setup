@@ -1,0 +1,64 @@
+CODE=$HOME/code
+
+alias l="ls -ltr"
+alias dnlds="cd /c/Users/$USERNAME/Downloads"
+alias srv="cd ~/code/bcbst/www && python -m SimpleHTTPServer 8000"
+alias srv3="python -m SimpleHTTPServer 8003"
+
+alias gcas="git commit -a --status"
+
+# eslint should be installed on a per-project basis.
+alias eslint="node_modules/.bin/eslint"
+
+# Maven
+alias mc="mvn clean"
+alias mcp="mvn clean package -Djavax.net.ssl.trustStore=~/truststore/trust.jks"
+alias mccp="mvn clean compile package -Djavax.net.ssl.trustStore=~/truststore/trust.jks"
+
+alias open=start
+
+alias cdb="cd $CODE/bcbst"
+alias ds="npm run dev"
+alias bp="npm run build && npm run push"
+
+# SSH
+# rn000094 is my personal linux box
+alias rh="ssh $USERNAME@rn000094"
+
+# rn000155 is the team linux box
+alias nsrv="ssh $USERNAME@rn000155"
+
+# anwas29 is the development WAS 9 server - services live here
+alias a29="ssh $USERNAME@anwas29"
+
+# anwas42 is the development v9 dx9 server (aix)
+alias a42="ssh $USERNAME@anwas42"
+
+#anwas42 is the development v9 dx9 authoring server (aix)
+alias a46="ssh $USERNAME@anwas46"
+
+# aliases for dxsync
+alias dxp="dxsync push"
+alias dxg="dxsync pull"
+
+# aliases for sp.sh
+alias sp="sp.sh"
+alias spp="sp push"
+
+# Custom code stuff for me :)
+alias bk='$CODE/bampikey/bampikey.sh'
+alias memsvc='cd $CODE/bcbst-member && node server'
+
+alias e='emacs $CODE/bluesky/README.md $CODE/bcbst/projects.md $CODE/bcbst/dailytodo.md &'
+
+alias scmlogin="scm login -r https://rtcccm.bcbst.com/ccm -u `whoami` -n rtc -c"
+alias scmlogout="scm logout -r rtc"
+
+
+# Lets do some functions too!
+
+# this doesn't work
+#function gsd {
+#    eval "git -C ${1} status"
+#}
+
