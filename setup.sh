@@ -1,3 +1,4 @@
+
 # Use setx to permanently set environment variables
 # https://ss64.com/nt/setx.html
 
@@ -9,15 +10,15 @@ HOME_DIR=/c/home/$USERNAME
 HOME_BIN=$HOME_DIR/bin
 CODE=$HOME_DIR/code
 
+echo "Creating home directory in ${HOME_DIR}..."
 mkdir -p $HOME_BIN
 mkdir $CODE
 
 # Set the HOME directory to this new variable
+echo "Setting HOME environment variable..."
 setx HOME $HOME_DIR
 
-cp ./.bashrc $HOME_DIR/
-
-# Add the home and bin dirs to the path
+# Add the home/bin dir to the path
 setx PATH $PATH:$HOME_BIN
 
 
@@ -34,12 +35,15 @@ setx PATH $PATH:$HOME_BIN
 # wget -O emacs.sig http://mirrors.ocf.berkeley.edu/gnu/emacs/windows/emacs-26/emacs-26.1-x86_64.zip.sig
 # http://mirrors.ocf.berkeley.edu/gnu/emacs/windows/emacs-26/emacs-26.1-x86_64.zip
 
+echo "Copying dot files to home..."
 cp ./dotfiles/bashrc $HOME_DIR/.bashrc
 cp ./dotfiles/wgetrc $HOME_DIR/.wgetrc
 cp ./dotfiles/gitconfig $HOME_DIR/.gitconfig
 cp ./dotfiles/gitignore $HOME_DIR/.gitignore
 
 MYGIT="https://github.com/andrunix"
+
+echo "Cloning emacs config from github..."
 
 # Get the emacs configuration
 git clone $MYGIT/emacs.d $HOME_DIR/.emacs.d
@@ -48,4 +52,8 @@ git clone $MYGIT/emacs.d $HOME_DIR/.emacs.d
 git clone $MYGIT/bcbst $HOME_DIR/code/bcbst
 git clone $MYGIT/amp $HOME_DIR/code/amp
 git clone $MYGIT/org $HOME_DIR/code/org
+
+
+echo "DONE!"
+echo "You should probably reboot for sanity. It's Windows after all."
 
