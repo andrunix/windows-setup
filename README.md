@@ -158,4 +158,6 @@ See my [emacs.d repo](https://github.com/andrunix/emacs.d) for configuration of 
 * https://github.com/davidjenni/pok3r-layouts
 
 
+Check back for more great Windows hacks later. ;)
+
 
